@@ -1,4 +1,4 @@
-import { Play, Clapperboard, Download } from 'lucide-react'
+import { Play, Clapperboard } from 'lucide-react'
 
 export function Hero() {
   return (
@@ -35,21 +35,13 @@ export function Hero() {
               Main Sekarang
             </a>
             <a
-              href="/images/trailer.mp4"
+              href="https://youtu.be/_2k65MiL63o?si=CJ8jGLOOHFtfkcTY"
               target="_blank"
               rel="noopener noreferrer"
               className="pixel-border inline-flex items-center gap-2 rounded-md border-2 border-primary bg-secondary px-6 py-3 font-mono text-xs text-primary transition-transform hover:-translate-y-0.5"
             >
               <Clapperboard className="size-4" aria-hidden="true" />
               Lihat Trailer
-            </a>
-            <a
-              href="/game/Oops!.exe"
-              download
-              className="pixel-border inline-flex items-center gap-2 rounded-md border-2 border-accent bg-accent/10 px-6 py-3 font-mono text-xs text-accent transition-transform hover:-translate-y-0.5"
-            >
-              <Download className="size-4" aria-hidden="true" />
-              Download Game
             </a>
           </div>
 
@@ -72,18 +64,13 @@ export function Hero() {
 
         <div className="relative mx-auto w-full max-w-sm md:max-w-md">
           <div className="animate-float-bob">
-            <video
-              src="/images/part1.mp4"
-              autoPlay
-              muted
-              loop
-              playsInline
+            <img
+              src="/images/cover.png"
+              alt="Oops! Game Cover"
               width={520}
-              height={520}
-              className="pixelated rounded-lg border-4 border-border w-full h-auto"
-            >
-              <track kind="captions" srcLang="id" label="Tidak ada caption" />
-            </video>
+              height={292}
+              className="pixelated rounded-lg border-4 border-border w-full h-auto object-cover"
+            />
           </div>
           <div
             aria-hidden="true"

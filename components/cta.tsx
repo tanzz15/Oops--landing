@@ -31,8 +31,9 @@ export function Cta() {
           Main Sekarang
         </a>
         <a
-          href="/game/Oops!.exe"
-          download
+          href="https://tanzz15.itch.io/oops"
+          target="_blank"
+          rel="noopener noreferrer"
           className="pixel-border inline-flex items-center gap-2 rounded-md border-2 border-accent bg-accent/10 px-8 py-4 font-mono text-sm text-accent transition-transform hover:-translate-y-0.5"
         >
           <Download className="size-4" aria-hidden="true" />
