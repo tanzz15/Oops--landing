@@ -63,7 +63,7 @@ The game is currently in development.
 ## Project Links
 
 - **Official Website:** https://oops-landing.vercel.app/
-- **Source Code:** https://github.com/tanzz15/Oops-/tree/main/Oops!
+- **Source Code:** https://github.com/tanzz15/Oops-
 - **Game Download:** https://tanzz15.itch.io/oops
 - **Official Trailer:** https://youtu.be/_2k65MiL63o
 
